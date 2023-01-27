@@ -1,0 +1,137 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pale-blue);
+}
+
+main {
+  font-family: "Red Hat Display";
+  border-radius: 20px;
+  margin: 5rem;
+  overflow: hidden;
+  max-width: 18rem;
+  min-height: 30rem;
+  background-color: white;
+  text-align: center;
+}
+
+.container_1 img {
+  max-width: 100%;
+  display: block;
+}
+
+.container_2 {
+  padding: 1.2rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1rem 0 1.3rem 0;
+}
+
+p {
+  color: grey;
+  line-height: 24px;
+}
+
+.container_2 > p {
+  padding-bottom: 1.5rem;
+}
+
+.music_box {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: var(--very-pale-blue);
+  margin-bottom: 2rem;
+  padding: 1rem 0 1rem 0;
+}
+
+.music_box img {
+  min-width: 0;
+  object-fit: contain;
+  padding-right: 20px;
+}
+
+div.plan {
+  min-width: 0;
+  font-size: 0.9rem;
+  line-height: 20px;
+  padding-right: 26px;
+}
+
+.music_box a {
+  min-width: 0;
+  align-self: center;
+  font-size: 16px;
+  color: darkblue;
+}
+
+button {
+  font-weight: bold;
+}
+
+.btn_1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5;
+  background-color: var(--bright-blue);
+  color: white;
+  border-radius: 10px;
+  border: rgba(0, 0, 0, 0);
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 0 10px 30px 0 gray;
+}
+
+.btn_2 {
+  background-color: rgba(0, 0, 0, 0);
+  border: rgba(0, 0, 0, 0);
+  color: gray;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+  filter: brightness(2);
+}
+
+.btn_1:hover {
+  filter: brightness(1.2);
+}
+
+.btn_2:hover {
+  filter: brightness(0.2);
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url(https://fonts.google.com/specimen/Red+Hat+Display.ttf);
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    max-width: 23rem;
+  }
+
+  .container_2 {
+    padding: 1.5rem 2rem 1.5rem 2rem;
+  }
+}
