@@ -9,9 +9,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ![Capture d’écran (219)](https://user-images.githubusercontent.com/121683423/215130303-b732175e-d6a7-4a99-b782-ae605f20694c.png)
 
 
-Solution URL : 
+Solution URL : https://www.frontendmentor.io/solutions/order-summary-card-with-flexbox-9c2MA9Y9vz
 
-Live Site URL : 
+Live Site URL : https://handyyweb.github.io/Order-Summary/
 
 <ins>My process</ins> :
 
